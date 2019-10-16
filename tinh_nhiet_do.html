@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+
+    function Temperature(c) {
+        this.c = c;
+    }
+   function do_f() {
+       var nhiet_do = new Temperature(50);
+       document.write("Độ C là: " + nhiet_do.c + "<br>");
+       document.write("Độ F là: " + (nhiet_do.c*1.8)+32 + "<br>");
+       document.write("Độ F là: " + (nhiet_do.c + 273.15) + "<br>");
+   }
+   do_f();
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>
